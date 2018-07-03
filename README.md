@@ -4,4 +4,4 @@ It is built in Node and React & Redux with Babel and Webpack.
 
 To run the app in the command line, 
   1. Type npm start
-  2. Open the browser and go to localhost:8080
+  2. Open your browser and go to localhost:8080
