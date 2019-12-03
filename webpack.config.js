@@ -32,5 +32,7 @@ module.exports = {
 var webpack = require('webpack');
 
 plugins: [
-  new webpack.DefinePlugin({'process.env.NODE_ENV': JSON.stringify(process.env.NODE})
-  ];
+  new webpack.DefinePlugin({
+    "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
+  })
+];
